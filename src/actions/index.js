@@ -4,7 +4,7 @@ import {
 
 export function getUsers(){
   return{
-    type: FETCH_USERS,
+    type: GET_USERS,
     payload: [
       {name: "Ish"},
       {name: "Laci"},
