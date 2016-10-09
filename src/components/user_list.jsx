@@ -10,7 +10,7 @@ class UserList extends Component{
   renderUsers(){
     return this.props.users.map((user) => {
       return(
-        <div className="card card-block"> 
+        <div className="card card-block" key={user.id}> 
           <h4 className="card-title">{user.name}</h4> 
           <p className="card-text">Place of work</p> 
           <a className="btn btn-primary"> Email </a> 
